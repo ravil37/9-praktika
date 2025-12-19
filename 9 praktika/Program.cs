@@ -126,7 +126,7 @@ namespace _9_praktika
 
             for (int i = 0; i < fruitArray.Length; i++)
             {
-                fruitArray[i] = fruitArray[i].Trim();
+                fruitArray[i] = fruitArray[i].Trim(); // убирает пробелы в начале и в конце
             }
             Console.WriteLine();
             for (int i = 0; i < fruitArray.Length; i++)
