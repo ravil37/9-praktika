@@ -12,12 +12,12 @@ namespace _9_praktika
         {
             //Задание 1
             string name = "анна";
-            string NameFormat2 = char.ToUpper(name[0]) + name.Substring(1).ToLower();
+            string Name2 = char.ToUpper(name[0]) + name.Substring(1).ToLower();
             string city = "москва";
             string CITY = city.ToUpper();
-            Console.WriteLine(NameFormat2);
+            Console.WriteLine(Name2);
             Console.WriteLine(CITY);
-            Console.WriteLine($"Привет, {NameFormat2} из {CITY}!");
+            Console.WriteLine($"Привет, {Name2} из {CITY}!");
 
             ////Задание 2
             string text = "C# это современный язык программирования.";
